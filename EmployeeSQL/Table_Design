@@ -1,0 +1,50 @@
+# dept_number is unique, and dept_name not null
+departments
+--
+dept_no PK VARCHAR
+dept_name VARCHAR
+
+# with the presence of from and to date, its possible 
+# employee can swith between dept
+dept_emp
+--
+emp_no PK INTEGER FK >- employees.emp_no
+dept_no PK VARCHAR FK >- departments.dept_no
+from_date PK DATE
+to_date DATE
+
+# emp_no is unique
+employees
+--
+emp_no PK INTEGER
+birth_date DATE
+first_name VARCHAR
+last_name VARCHAR
+gender VARCHAR
+hire_date DATE
+
+# employee gets different title over time.
+# there can be break in their employment
+titles
+--
+emp_no PK INTEGER FK >- employees.emp_no
+title PK VARCHAR
+from_date PK DATE
+to_date DATE
+
+# with the presence of from and to date, its possible 
+# managers can swith between dept
+dept_manager
+--
+dept_no PK VARCHAR FK >- departments.dept_no
+emp_no PK INTEGER FK >- employees.emp_no
+from_date PK DATE
+to_date DATE
+
+
+salaries
+--
+emp_no PK INTEGER FK >- employees.emp_no
+salary FLOAT
+from_date PK DATE
+to_date DATE
