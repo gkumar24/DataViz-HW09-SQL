@@ -45,7 +45,7 @@ CREATE TABLE "titles" (
     "from_date" DATE   NOT NULL,
     "to_date" DATE   NULL,
     CONSTRAINT "pk_titles" PRIMARY KEY (
-        "emp_no","title"
+        "emp_no","title","from_date"
      )
 );
 
