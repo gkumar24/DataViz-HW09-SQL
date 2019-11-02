@@ -37,30 +37,30 @@ Data Analysis Questions:
     with the above said, this table will have emp_no, title and from date as unique and will be the combination of primary key. 
 
 ## Table design for http://www.quickdatabasediagrams.com.
-* [Table Design](/Table_Design.txt)
+* [Table Design](Table_Design.txt)
 
 ## Entity Relationship Diagram (ERD)
 
-![Entity Relationship Diagram](/ERD_EmployeeSQL.png)
+![Entity Relationship Diagram](ERD_EmployeeSQL.png)
 
 # Data Engineering:
 
 ## Table Creation Script
 * Table creation script, along with Primary key, Foreign Key definitions. 
-* [Table Create Script](/Table_Create_Script.sql)
+* [Table Create Script](Table_Create_Script.sql)
 
 ## Data Import script, from CSV file
 * Data import from CSV, using copy command
-* [CSV Data Import](/CSV_Import_Query.sql)
+* [CSV Data Import](CSV_Import_Query.sql)
 
 # Data Analysis:
 ## Data analysis, and answering the 8 questions, in the scope.
-* [Data Analysis Query](/Data_Analysis_Query.sql)
+* [Data Analysis Query](Data_Analysis_Query.sql)
 
 ## Employee, assigned to different title over the period of employment.
 * Since employee can be assigned to different title during the employment, they can enter, exit and re-enter a title. hence title and dept_manager table should have from_date in the primary key allong with the employee id and title or dept_id respectively.
 
-![Employee with repeated title](/Analysis/Employee_Same_Title_Different_Time_Period.png)
+![Employee with repeated title](Analysis/Employee_Same_Title_Different_Time_Period.png)
 
 ### Thank you 
 
