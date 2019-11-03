@@ -92,3 +92,5 @@ from employees
 group by last_name
 order by count(emp_no) desc;
 
+--from Epilogue, search for 499942
+select * from employees where emp_no = 499942
