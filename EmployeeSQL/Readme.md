@@ -67,6 +67,12 @@
 
 ![Average Salary by Title](Analysis/Avg_Salary_by_Title.png)
 
+## Conclusion
+* From Average Salary by Title, its surprising that most title have the same average salary. except the staff and senior staff.
+* The Salary table is not up-to-date with the titles table
+    * Employee 10004, is a "Senior Engineer" from 1995-12-01, but his salary detail is available only till "1987-12-01", (with a salary of 40054.0)
+    * So this may not give an accurate detail for the Avg. Salary by Title Bar chart. 
+
 ### Thank you 
 
 This work is part of the `SQL Homework assignment` by `UOM Data Analysis and Visualization Bootcamp`.
