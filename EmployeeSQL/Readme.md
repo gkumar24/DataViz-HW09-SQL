@@ -58,6 +58,9 @@
 ## Data analysis, and answering the 8 questions, in the scope.
 * [Data Analysis Query](Data_Analysis_Query.sql)
 
+## Bonus Jupyter Notebook for Avg. Salary Vs Title.
+* [Employee Jupyter Notebook](EmployeePy.ipynb)
+
 ## Employee, assigned to different title over the period of employment.
 * Since employee can be assigned to different title during the employment, they can enter, exit and re-enter a title. hence title and dept_manager table should have from_date in the primary key allong with the employee id and title or dept_id respectively.
 
